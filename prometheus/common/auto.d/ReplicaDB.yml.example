@@ -1,6 +1,6 @@
 ###
 #
-# Copyright 2017-2021 Qingcloud Data Solutions, Inc. All Rights Reserved.
+# Copyright 2017-2021 Crunchy Data Solutions, Inc. All Rights Reserved.
 #
 ###
 
@@ -8,7 +8,7 @@
   labels:
     job: "Replica"
     exp_type: "pg"
-    cluster: "qingcloud"
+    cluster: "radondb"
 - targets: [ "10.123.202.13:9188" ]
   labels:
     job: "mycluster_Replica"

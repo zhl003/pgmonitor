@@ -1,3 +1,3 @@
-[submodule "hugo/themes/qingcloud-hugo-theme"]
-	path = hugo/themes/qingcloud-hugo-theme
-	url = https://github.com/qingclouddata/qingcloud-hugo-theme
+[submodule "hugo/themes/radondb-hugo-theme"]
+	path = hugo/themes/radondb-hugo-theme
+	url = https://github.com/radondbdata/radondb-hugo-theme

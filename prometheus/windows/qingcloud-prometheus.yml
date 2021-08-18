@@ -1,6 +1,6 @@
 ###
 #
-# Copyright 2017-2021 Qingcloud Data Solutions, Inc. All Rights Reserved.
+# Copyright 2017-2021 Crunchy Data Solutions, Inc. All Rights Reserved.
 #
 ###
 
@@ -25,7 +25,7 @@ scrape_configs:
     scrape_interval: 30s
     file_sd_configs:
     - files:
-      - QINGCLOUDPATH\pgMonitor\config\prometheus\auto.d\*.yml
+      - RADONDBPATH\pgMonitor\config\prometheus\auto.d\*.yml
 
     metric_relabel_configs:
     # Do not store the metrics that come built into postgres_exporter
@@ -46,7 +46,7 @@ scrape_configs:
 #### Uncomment below if using alertmanager ####        
 #
 rule_files:
-  - QINGCLOUDPATH\pgMonitor\config\prometheus\alert-rules.d\*.yml
+  - RADONDBPATH\pgMonitor\config\prometheus\alert-rules.d\*.yml
 #
 #alerting:
 #  alertmanagers:

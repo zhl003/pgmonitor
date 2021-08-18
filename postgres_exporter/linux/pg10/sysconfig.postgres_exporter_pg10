@@ -1,13 +1,13 @@
 ###
 #
-# Copyright 2017-2021 Qingcloud Data Solutions, Inc. All Rights Reserved.
+# Copyright 2017-2021 Crunchy Data Solutions, Inc. All Rights Reserved.
 #
 ###
 
 # This file must be in a pathname that matches the EnvironmentFile entry in the service file (Default: /etc/sysconfig/postgres_exporter)
 
 # --web.listen-address: change '0.0.0.0' to the network IP assigned to this system if necessary, otherwise it will listen on any IP. Change port as necessary if running multiple instances.
-# --extend.query-path: location of file containing custom queries to run. Location below is one recommended by qingcloud setup steps.
+# --extend.query-path: location of file containing custom queries to run. Location below is one recommended by radondb setup steps.
 # DATA_SOURCE_NAME: psql connection string. set the database that the exporter will connect to. Default is `postgres`.
 # QUERY_FILE_LIST: space delimitted yml files that will be concatenated to a single queries.yml file. This should only be set once. If set multiple times, last one wins.
 

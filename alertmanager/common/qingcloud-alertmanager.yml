@@ -1,6 +1,6 @@
 ###
 #
-# Copyright 2017-2021 Qingcloud Data Solutions, Inc. All Rights Reserved.
+# Copyright 2017-2021 Crunchy Data Solutions, Inc. All Rights Reserved.
 #
 ###
 
@@ -28,7 +28,7 @@ inhibit_rules:
 receivers:
 - name: 'default-receiver'
   email_configs:
-  - to: 'example@qingclouddata.com'
+  - to: 'example@radondbdata.com'
     send_resolved: true
 
 ## Examples of alternative alert receivers. See documentation for more info on how to configure these fully
@@ -42,12 +42,12 @@ receivers:
 
 #- name: 'dba-team'
 #  email_configs:
-#  - to: 'example-dba-team@qingclouddata.com'
+#  - to: 'example-dba-team@radondbdata.com'
 #    send_resolved: true
 
 #- name: 'sre-team'
 #  email_configs:
-#  - to: 'example-sre-team@qingclouddata.com'
+#  - to: 'example-sre-team@radondbdata.com'
 #    send_resolved: true
 
 route:

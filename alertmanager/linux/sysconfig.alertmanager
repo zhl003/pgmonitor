@@ -1,6 +1,6 @@
 ###
 #
-# Copyright 2017-2021 Qingcloud Data Solutions, Inc. All Rights Reserved.
+# Copyright 2017-2021 Crunchy Data Solutions, Inc. All Rights Reserved.
 #
 ###
 
@@ -10,4 +10,4 @@
 # --storage.path: location that the alertmanager will keep files it generates
 # --log.level: how verbose to make system logging. Setting to "debug" can help with diagnosing issues, but should not be left that way.
 
-OPT="--config.file=/etc/prometheus/qingcloud-alertmanager.yml --storage.path=/var/lib/ccp_monitoring/alertmanager --log.level=info"
+OPT="--config.file=/etc/prometheus/radondb-alertmanager.yml --storage.path=/var/lib/ccp_monitoring/alertmanager --log.level=info"

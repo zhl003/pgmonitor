@@ -2135,8 +2135,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "qingcloud",
-          "value": "qingcloud"
+          "text": "radondb",
+          "value": "radondb"
         },
         "datasource": "PROMETHEUS",
         "definition": "label_values(up{exp_type='pg'}, cluster_name)",
@@ -2166,8 +2166,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "qingcloud_pg1_qingcloud",
-          "value": "qingcloud_pg1_qingcloud"
+          "text": "radondb_pg1_radondb",
+          "value": "radondb_pg1_radondb"
         },
         "datasource": "PROMETHEUS",
         "definition": "label_values(up{exp_type='pg', cluster_name=\"[[pgcluster]]\"}, job)",
